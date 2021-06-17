@@ -12,8 +12,9 @@
 
 .button{
     display: inline-block;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white     ;
 }
 /* common */
 
@@ -47,11 +48,50 @@ nav li>a{
     text-decoration: none;
     padding: 0 10px;
 }
-.wrapper .button{
-    background-color: white;
+header .wrapper .button{
     float: right;
 }
 /* header */
+
+
+/* banner */
+.banner{
+    width: 100%;
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner .wrapper{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate( -50%, -50%);
+   width: 40%;
+   color: white;
+   text-align: center;
+}
+
+
+.banner .wrapper>*{
+  margin: 20px;
+}
+
+.wrapper i{
+    margin: 0 10px;
+}
+
+body > main > div > div > div:nth-child(3){
+    color: black;
+}
+body > main > div > div > div:nth-child(4){
+    background-color: black;
+}
+
+/* banner */
 
 /* debug */
 

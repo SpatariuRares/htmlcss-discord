@@ -12,7 +12,8 @@
 }
 
 body{
-    font-size: 1.3em;
+    font-size: 1.1em;
+    font-family: "Ginto Nord", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;;
 } 
 
 .wrapper{
@@ -130,6 +131,7 @@ body > main > div > div > div:nth-child(4){
 /* testo */
 .testo>*{
     padding: 20px 0;
+    font-size: 1.2em;
 }
 
 

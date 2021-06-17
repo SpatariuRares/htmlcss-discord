@@ -26,7 +26,7 @@
 }
 
 .grigio{
-    background-color: grey;
+    background-color: lightgray;
 }
 
 .sinistra{
@@ -154,8 +154,40 @@ footer{
     background-color: purple;
 }
 
-footer .wrapper i{
-    margin-right: 10px;
+footer .wrapper:first-child i{
+    margin: 0 10px 0 0 ;
+}
+
+footer .wrapper:first-child *{
+    margin: 10px 0;
+}
+
+footer .wrapper:first-child li:first-child,footer .wrapper:first-child h3{
+    color:aqua
+}
+
+footer .wrapper:first-child div{
+    width: calc(60% / 4)
+}
+
+footer .wrapper:first-child div:first-child{
+    width: 40%;
+    vertical-align: top;
+}
+
+footer .wrapper:first-child div{
+    display: inline-block;
+}
+footer li{
+    display: block;
+}
+
+footer .wrapper:first-child{
+    border-bottom: 2px solid blue;
+}
+
+footer .wrapper:last-child{
+   padding: 20px 0;
 }
 /* footer */
 /* debug */

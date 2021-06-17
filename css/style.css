@@ -5,6 +5,14 @@
 }
 
 /* common */
+.clearfix{
+    content: "" ; 
+    clear:both; 
+    display: table; 
+}
+
+
+
 .wrapper{
     width: 80%;
     margin: 0 auto;
@@ -15,6 +23,18 @@
     padding: 10px;
     border-radius: 20px;
     background-color: white     ;
+}
+
+.grigio{
+    background-color: grey;
+}
+
+.sinistra{
+    float: left;
+}
+
+.destra{
+    float: right;
 }
 /* common */
 
@@ -51,6 +71,10 @@ nav li>a{
 header .wrapper .button{
     float: right;
 }
+
+main .button{
+    font-size: 20px;
+}
 /* header */
 
 
@@ -76,11 +100,14 @@ header .wrapper .button{
 }
 
 
-.banner .wrapper>*{
+.banner .wrapper>h1,.banner .wrapper>p{
   margin: 20px;
 }
+.banner .wrapper>.button{
+  margin: 10px;
+}
 
-.wrapper i{
+.wrapper .button i{
     margin: 0 10px;
 }
 
@@ -91,8 +118,46 @@ body > main > div > div > div:nth-child(4){
     background-color: black;
 }
 
+
+/* testo */
+.testo>*{
+    padding: 20px 0;
+}
+
+.testo .text{
+    /* width: 40%; */
+    padding-top: 20px;
+}
+
+.grigio:last-child{
+    text-align: center;
+}
+
+.grigio:last-child h3{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.grigio:last-child .button{
+   color: white;
+   background-color: #40aded;
+}
+/* testo */
+
 /* banner */
 
+/* footer */
+footer{
+    background-color: purple;
+}
+
+footer .wrapper i{
+    margin-right: 10px;
+}
+/* footer */
 /* debug */
 
 /* debug */

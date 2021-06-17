@@ -11,12 +11,10 @@
     display: table; 
 }
 
-body{
-    font-size: 1.3em;
-} 
+
 
 .wrapper{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -27,7 +25,7 @@ body{
 }
 
 .grigio{
-    background-color: #f6f6f6;
+    background-color: lightgray;
 }
 
 .sinistra{
@@ -44,6 +42,8 @@ header{
     height: 70px;
     width: 100%;
     background-color: #404EED;
+    position: fixed;
+    z-index: 999;
 }
 
 header img{
@@ -77,7 +77,7 @@ header .wrapper .button{
 
 main .button{
     font-size: 20px;
-    padding: 10px 10px;
+    padding: 0 10px;
 }
 /* header */
 
@@ -86,6 +86,7 @@ main .button{
 .banner{
     width: 100%;
     position: relative;
+    padding-top: 70px;
 }
 
 .banner img{
@@ -103,6 +104,11 @@ main .button{
    text-align: center;
 }
 
+
+.wave img{
+    color: #ff0000;
+}
+}
 
 .banner .wrapper>h1,.banner .wrapper>p{
   margin: 20px;
@@ -132,7 +138,6 @@ body > main > div > div > div:nth-child(4){
     padding: 20px 0;
 }
 
-
 .testo .text{
     /* width: 40%; */
     padding-top: 20px;
@@ -152,7 +157,7 @@ body > main > div > div > div:nth-child(4){
 
 .grigio:last-child .button{
    color: white;
-   background-color: #5865f2;
+   background-color: #40aded;
 }
 /* testo */
 
@@ -160,8 +165,7 @@ body > main > div > div > div:nth-child(4){
 
 /* footer */
 footer{
-    background-color: #23272A;
-    color: white;
+    background-color: purple;
 }
 
 footer .wrapper:first-child i{
@@ -173,7 +177,7 @@ footer .wrapper:first-child *{
 }
 
 footer .wrapper:first-child li:first-child,footer .wrapper:first-child h3{
-    color:#5865f2
+    color:aqua
 }
 
 footer .wrapper:first-child div{
@@ -182,11 +186,11 @@ footer .wrapper:first-child div{
 
 footer .wrapper:first-child div:first-child{
     width: 40%;
+    vertical-align: top;
 }
 
 footer .wrapper:first-child div{
     display: inline-block;
-    vertical-align: top;
 }
 footer li{
     display: block;
@@ -202,18 +206,6 @@ footer .wrapper:last-child{
 }
 footer .wrapper:last-child .button{
    padding: 0 20px;
-   background-color: #5865f2;
-}
-
-footer li>a{
-    color: white;
-    text-decoration: none;
-}
-
-footer select{
-    color: white;
-    border: 0;
-    background-color: #ffffff00;
 }
 /* footer */
 /* debug */

@@ -12,7 +12,7 @@
 }
 
 body{
-    font-size: 1.3em;
+    font-family: "Ginto Nord", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;;
 } 
 
 .wrapper{
@@ -128,8 +128,10 @@ body > main > div > div > div:nth-child(4){
 
 
 /* testo */
-.testo>*{
+.testo>.bianco,
+.testo>.grigio{
     padding: 20px 0;
+    font-size: 1.5em;
 }
 
 
@@ -215,6 +217,31 @@ footer select{
     border: 0;
     background-color: #ffffff00;
 }
+
+
+/* bonus   */
+.wave{
+     filter: contrast(0) opacity(6%);
+    height: 50px;
+} 
+.wave img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+} 
+.rot{
+    transform: rotate(0.5turn);
+}
+header{
+    position: fixed;
+    z-index: 999;
+}
+.banner{
+    padding-top: 70px;
+}
+
+/* bonus   */
+
 /* footer */
 /* debug */
 

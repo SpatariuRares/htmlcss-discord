@@ -21,6 +21,7 @@ body{
 }
 
 .button{
+    padding: 10px;
     display: inline-block;
     border-radius: 20px;
     background-color: white     ;
@@ -43,6 +44,7 @@ body{
 .v-middle{
     vertical-align: middle;
 }
+
 /* common */
 
 /* header */
@@ -86,13 +88,11 @@ nav li>a{
     padding: 0 10px;
 }
 header .wrapper .button{
-    padding: 0 10px;
     display: inline;
 }
 
 main .button{
     font-size: 20px;
-    padding: 10px;
 }
 /* header */
 
@@ -128,10 +128,6 @@ main .button{
 
 .wrapper .button i{
     margin: 0 10px;
-}
-
-.banner .button {
-   padding: 10px;
 }
 
 body > main > div > div > div:nth-child(3){
@@ -215,11 +211,18 @@ footer .wrapper:first-child{
 
 footer .wrapper:last-child{
    padding: 20px 0;
-   line-height: 39px;
+   height: 150px;
+   line-height: 50px;
 }
+
+footer .wrapper:last-child img{
+   vertical-align: middle;
+}
+
 footer .wrapper:last-child .button{
-   padding: 0 20px;
    background-color: #5865f2;
+   display: inline;
+
 }
 
 footer li>a{

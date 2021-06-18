@@ -190,10 +190,13 @@ footer .wrapper:first-child li:first-child,footer .wrapper:first-child h3{
 }
 
 footer .wrapper:first-child div{
+    width:60%
+}
+footer .wrapper:first-child>div{
     width: calc(60% / 4)
 }
 
-footer .wrapper:first-child div:first-child{
+footer .wrapper:first-child>div:first-child{
     width: 40%;
 }
 
@@ -257,5 +260,8 @@ header{
 
 /* footer */
 /* debug */
-
+.debug footer .wrapper>*,
+.debug footer .wrapper:first-child>div:last-child div{
+    border: 1px solid red;
+}
 /* debug */

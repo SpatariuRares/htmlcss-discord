@@ -5,7 +5,7 @@
 }
 
 /* common */
-.clearfix{
+.clearfix::after{
     content: "" ; 
     clear:both; 
     display: table; 
@@ -37,6 +37,12 @@ body{
 .destra{
     float: right;
 }
+
+
+
+.v-middle{
+    vertical-align: middle;
+}
 /* common */
 
 /* header */
@@ -46,25 +52,34 @@ header{
     background-color: #404EED;
 }
 
-header img{
-   vertical-align: middle;
+header .wrapper{
+   height: 100%;
+   line-height: 70px;
 }
 
-header .wrapper{
-   position: relative;
-   transform: translate(0, 50%);
-   line-height: 34px;
+header .wrapper>div:last-child{
+   text-align: right;
+   display: inline;
+}
+
+
+header img{
+   vertical-align: middle;
 }
 
 
 nav,li{
     display: inline-block;
 }
-nav{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
+header .center{
+    width: 70%;
+    text-align: center;
 }
+
+header .sidebar{
+    width: 15%;
+}
+
 nav li>a{
     color: white;
     text-decoration: none;
@@ -73,11 +88,12 @@ nav li>a{
 header .wrapper .button{
     float: right;
     padding: 0 10px;
+    display: inline;
 }
 
 main .button{
     font-size: 20px;
-    padding: 10px 10px;
+    padding: 10px;
 }
 /* header */
 

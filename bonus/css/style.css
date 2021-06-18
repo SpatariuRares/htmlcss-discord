@@ -164,6 +164,14 @@ body > main > div.testo > div:last-child > section > .text{
     float: left;
 }
 
+.testo .grigio{
+    text-align: left;
+}
+
+.testo .bianco{
+    text-align: right;
+}
+
 .grigio:last-child{
     text-align: center;
 }
@@ -219,6 +227,22 @@ footer .wrapper:first-child div{
 }
 footer li{
     display: block;
+}
+
+footer span{
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+    line-height: 20px;
+}
+
+body > footer > div.wrapper.clearfix > div:nth-child(1) > span > *{
+    margin: 0;
+}
+.sinistra span img{
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
 }
 
 footer .wrapper:first-child{

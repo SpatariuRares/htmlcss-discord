@@ -146,9 +146,22 @@ body > main > div > div > div:nth-child(4){
 }
 
 
+.testo img{
+    width: 60%;
+}
+
+
+body > main > div.testo > div:last-child > section > img{
+    width: 100%;
+}
+body > main > div.testo > div:last-child > section > .text{
+    width: 100%;
+}
+
 .testo .text{
-    /* width: 40%; */
+    width: 40%;
     padding-top: 20px;
+    float: left;
 }
 
 .grigio:last-child{
@@ -260,6 +273,5 @@ footer select{
 
 /* footer */
 /* debug */
-
 
 /* debug */
